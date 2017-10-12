@@ -1,0 +1,75 @@
+<html>
+<body>
+<head>
+<meta http-equiv="refresh" content="60">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>PHPExcel Reader Example #13</title>
+
+</head>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+<p>上传运行账号(excel文件)：</p>
+<input type="file" name="file_stu" />
+<input type="submit" name="submit" value="开始上传" />
+<br/>
+<br/>
+<br/>
+<br/>
+
+<TABLE border='2' bgcolor='yellow' class='linear-gradient(to right,red 10px,purple 100px)'>
+<tr>
+<td><a href="csv_running.php" ><b>正在</b>手机上跑的账号</a></td>
+</tr>
+</table>
+<br/>
+<br/>
+<table border='2' bgcolor='AntiqueWhite'>
+<tr>
+
+<td>
+<a href="list_ready_acct.php" >待跑的小于60账号</a>
+</td>
+<td>
+<a href="list_60_acct.php" >跑到60级的账号</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="choose_acct.php" >勾选未满60的账号继续跑号</a>
+</td>
+
+</tr>
+</table>
+<br/>
+<br/>
+<table border='5' bgcolor='AliceBlue' cellspacing='10'>
+<tr>
+<td>
+<a href="csv_monitor60.php" >待跑的大于60且小于100账号</a>
+</td>
+<td>
+<a href="list_100_acct.php" >跑完的100级账号</a>
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+<table border='2' bgcolor='black'>
+<tr>
+<!--
+<td>
+<a href="choose_acct_download.php" >选择账号运行并下载到excel文件</a>
+</td>
+-->
+</tr>
+<tr>
+<td>
+<!--
+<b><a href="attach1.php" >收集各个手机的跑号信息到中控端（试用脚本意外终止等非常规情况）</a></b>
+-->
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
